@@ -150,7 +150,7 @@
         frame.size.height -= _controlHeight;
         frame.size.height -= self.segmentedControlEdgeInsets.top;
         frame.size.height -= self.segmentedControlEdgeInsets.bottom;
-        if (@available(iOS 11.0, *)) frame.size.height -= self.safeAreaInsets.bottom;
+       // if (@available(iOS 11.0, *)) frame.size.height -= self.safeAreaInsets.bottom;
     }
     
     frame.size.height -= self.contentView.parallaxHeader.minimumHeight;
